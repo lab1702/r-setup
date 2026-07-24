@@ -48,4 +48,6 @@ packages <- c(
   "tinyshinyserver"
 )
 
+pak_update()
+pak_install_extra(upgrade = TRUE)
 pak(pkg = packages, upgrade = TRUE, ask = FALSE)
