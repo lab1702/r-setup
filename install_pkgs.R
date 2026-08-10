@@ -1,8 +1,4 @@
 
-if (!requireNamespace("pak", quietly = TRUE)) {
-  install.packages("pak")
-}
-
 library(pak)
 
 options(pkg.sysreqs = TRUE)
