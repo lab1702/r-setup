@@ -2,7 +2,7 @@
 
 A one-line bootstrap script for setting up a fresh R installation with a standard set of packages.
 
-Running the script installs [pak](https://pak.r-lib.org/) if it isn't already available, then uses it to
+Running the script requires [pak](https://pak.r-lib.org/) to be installed, then uses it to
 install (or upgrade) the package list below. Because `pkg.sysreqs` is enabled, pak will also try to install
 any required system dependencies on supported Linux distributions.
 
